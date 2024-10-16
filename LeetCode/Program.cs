@@ -2,5 +2,5 @@
 using LeetCode;
 
 var solution = new Solution();
-var result = solution.LongestSubarray([1, 1, 0, 1]);
+var result = solution.LargestAltitude([-5, 1, 5, 0, -7]);
 Console.WriteLine(result);
