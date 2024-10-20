@@ -2,5 +2,5 @@
 using LeetCode;
 
 var solution = new Solution();
-var result = solution.LargestAltitude([-5, 1, 5, 0, -7]);
+var result = solution.PivotIndex([1, 7, 3, 6, 5, 6]);
 Console.WriteLine(result);
