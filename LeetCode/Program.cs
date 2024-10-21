@@ -2,5 +2,5 @@
 using LeetCode;
 
 var solution = new Solution();
-var result = solution.FindDifference([1, 2, 3], [2, 4, 6]);
+var result = solution.RemoveDuplicates([]);
 Console.WriteLine(result);
