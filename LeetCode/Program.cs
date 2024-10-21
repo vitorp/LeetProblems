@@ -2,5 +2,5 @@
 using LeetCode;
 
 var solution = new Solution();
-var result = solution.PivotIndex([1, 7, 3, 6, 5, 6]);
+var result = solution.FindDifference([1, 2, 3], [2, 4, 6]);
 Console.WriteLine(result);
