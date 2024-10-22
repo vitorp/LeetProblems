@@ -10,6 +10,7 @@ namespace LeetCode
         // Problem RemoveDuplicates2 #80
         public int RemoveDuplicates2(int[] nums)
         {
+            if (nums.Length < 2) return nums.Length;
             int k = 2;
 
             for(int i = 2; i < nums.Length; i++)
