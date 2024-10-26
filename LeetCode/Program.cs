@@ -2,5 +2,6 @@
 using LeetCode;
 
 var solution = new Solution();
-var result = solution.RemoveDuplicates([]);
-Console.WriteLine(result);
+solution.Rotate([1, 2, 3, 4, 5, 6, 7], 3);
+//var result = solution.Rotate([1, 2, 3, 4, 5, 6, 7], 3);
+//Console.WriteLine(result);
