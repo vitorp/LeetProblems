@@ -10,13 +10,12 @@ namespace LeetCode
         // Problem Rotate #189
         public void Rotate(int[] nums, int k)
         {
-            int i = 0;
-            int aux = nums[nums.Length - k -1];
-            for (int j = nums.Length - k; j < nums.Length; j++, i++)
+            k = k % nums.Length;
+            int[] nums2 = (int []) nums.Clone();
+            for (int i = 0; i < nums2.Length; i++)
             {
-                (nums[i], nums[j-1]) = (nums[j], nums[i]);
+                nums[(i+k)%nums2.Length] = nums2[i];
             }
-            nums[nums.Length-1] = aux;
         }
     }
 }
