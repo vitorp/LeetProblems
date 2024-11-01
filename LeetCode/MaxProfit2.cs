@@ -10,7 +10,11 @@ partial class Solution
         foreach (int price in prices)
         {
             if (price < min) min = price;
-            totalProfit = Math.Max(totalProfit, price - min);
+            if (price - min > 0)
+            {
+                totalProfit += price - min;
+                min = price;
+            }
         }
         return totalProfit;
     }

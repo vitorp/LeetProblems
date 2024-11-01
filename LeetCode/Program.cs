@@ -2,6 +2,5 @@
 using LeetCode;
 
 var solution = new Solution();
-solution.Rotate([1, 2, 3, 4, 5, 6, 7], 3);
-//var result = solution.Rotate([1, 2, 3, 4, 5, 6, 7], 3);
-//Console.WriteLine(result);
+var result = solution.Jump([2, 3, 1, 1, 4]);
+Console.WriteLine(result);
