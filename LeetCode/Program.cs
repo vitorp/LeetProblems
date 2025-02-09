@@ -1,6 +1,12 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using LeetCode;
 
+
 var solution = new Solution();
-var result = solution.Jump([2, 3, 1, 1, 4]);
+int[] preorder = [3, 9, 20, 15, 7];
+int[] inorder = [9, 3, 15, 20, 7];
+
+var result = solution.DecodeString("100[leetcode]");
 Console.WriteLine(result);
+
+
