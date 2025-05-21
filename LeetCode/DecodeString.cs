@@ -22,7 +22,6 @@ partial class Solution
                     i++;
                 }
                 repeatStack.Push(int.Parse(s.Substring(start, i - start)));
-                continue;
             }
             if (s[i] == ']')
             {
